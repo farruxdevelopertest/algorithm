@@ -1,5 +1,6 @@
 package com.company;
 
+
 import java.util.Scanner;
 
 class  Main {
@@ -44,36 +45,100 @@ class  Main {
 //        System.out.println("Binary: "+ binarySearch(list, 9));
 //        System.out.println("Linear: "+linearSearch(list, 9));
 
-        double a,b,c ,d,x1, x2;
+    //     double a,b,c ,d,x1, x2;
 
-        while (true){
+    //     while (true){
 
-            System.out.print("a ni kiriting (a 0 ga teng emas): ");
-            a = scanner.nextDouble();
+    //         System.out.print("a ni kiriting (a 0 ga teng emas): ");
+    //         a = scanner.nextDouble();
 
-            System.out.print("b ni kiriting: ");
-            b = scanner.nextDouble();
-            System.out.print("c ni kiriting: ");
-            c = scanner.nextDouble();
+    //         System.out.print("b ni kiriting: ");
+    //         b = scanner.nextDouble();
+    //         System.out.print("c ni kiriting: ");
+    //         c = scanner.nextDouble();
 
-            d = Math.pow(b,2)-4*a*c;
+    //         d = Math.pow(b,2)-4*a*c;
 
-            if(a != 0 && d>0)
-                break;
+    //         if(a != 0 && d>0)
+    //             break;
 
-            if(a == 0)
-              System.out.println("a 0 ga teng bolishi mumkin emas");
-            else
-                System.out.println("deskriminant 0 dan katta chiqmadi: " + d);
-        }
+    //         if(a == 0)
+    //           System.out.println("a 0 ga teng bolishi mumkin emas");
+    //         else
+    //             System.out.println("deskriminant 0 dan katta chiqmadi: " + d);
+    //     }
 
-        x1 = (-b+Math.sqrt(d))/(2*a);
-        x2 = (-b-Math.sqrt(d))/(2*a);
+    //     x1 = (-b+Math.sqrt(d))/(2*a);
+    //     x2 = (-b-Math.sqrt(d))/(2*a);
 
-       System.out.println("Yechim: " + "x1: "+x1+" x2: " + x2);
+    //    System.out.println("Yechim: " + "x1: "+x1+" x2: " + x2);
 
 
-        // double a1,a2,b1,b2,c1,c2, x,y;
+        // double a1,a2,b1,b2, c1,c2, d, x,y;
+        
+        
+        // System.out.println("Qiymatlarni bering: a1,a2,b1,b2,c1,c2");
+        
+        // System.out.print("a1: ");
+        // a1 = scanner.nextDouble();
+        // System.out.print("a2: ");
+        // a2 = scanner.nextDouble();
+        // System.out.print("b1: ");
+        // b1 = scanner.nextDouble();
+        // System.out.print("b2: ");
+        // b2 = scanner.nextDouble();
+        // System.out.print("c1: ");
+        // c1 = scanner.nextDouble();
+        // System.out.print("c2: ");
+        // c2 = scanner.nextDouble();
+
+      
+        // d = a1*b2-a2*b1;
+        // x = (c1*b2-c2*b1)/d;
+        // y = (c2*a1-c1*a2)/d;
+
+        // System.out.println("x: "+x );
+        // System.out.println("y: "+y );
+
+
+        // double x,a,y,b,d,x1,y1;
+
+
+        // System.out.print("shokalad (kg): ");
+        // x = scanner.nextDouble();
+        // System.out.print("narxi (so'm) : ");
+        // a = scanner.nextDouble();
+        // System.out.print("konfet (kg): ");
+        // y = scanner.nextDouble();
+        // System.out.print("b (so'm): ");
+        // b = scanner.nextDouble();
+
+        // x1 = a/x;
+        // y1 = b/y;
+
+        // d= x1 - y1;
+
+        // System.out.println("1kg shokolad 1 kg knfetdan "+d+" so'm qimmat");
+
+
+    //   double v1,v2,s,t, ds1, ds2 , dst;
+        
+    //     System.out.print("v1 (km/soat): ");
+    //     v1 = scanner.nextDouble();
+    //     System.out.print("v2 (km/soat): ");
+    //     v2 = scanner.nextDouble();
+    //     System.out.print("s (km): ");
+    //     s = scanner.nextDouble();
+    //     System.out.print("t (soat): ");
+    //     t = scanner.nextDouble();
+
+    //     ds1 =  v1*t;
+    //     ds2 = v2*t;
+    //     dst = s-ds1-ds2;
+
+    //     System.out.println("t vaqtdan keyin oradagi masofa: " +dst);
+
+
 
     }
 }
